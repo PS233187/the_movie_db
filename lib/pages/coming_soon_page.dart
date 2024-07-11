@@ -23,19 +23,19 @@ class ComingSoonPageState extends State<ComingSoonPage> {
             ),
           ),
           centerTitle: true,
-          backgroundColor: Colors.black, // Adjusted background color
-          elevation: 10,
-          shadowColor: Colors.white,
-          iconTheme: const IconThemeData(color: Colors.white),
+          backgroundColor: Color(0xFF090C1C),
         ),
       ),
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.black,
       body: Center(
         child: Text(
           'Welcome to Movie App!',
-          style: TextStyle(fontSize: 24),
+          style: TextStyle(
+            fontSize: 24,
+            color: Colors.white,
+          ),
         ),
-      ), // Placeholder text, replace with your actual app content
+      ),
     );
   }
 }
